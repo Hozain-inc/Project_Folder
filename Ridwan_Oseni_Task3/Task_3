@@ -1,0 +1,26 @@
+# 11
+# fruits = "apple,banana,orange"
+# list_of_fruits = fruits.split(",")
+# print(list_of_fruits)
+
+# 12
+# sentence = input("Enter a sentence: ")
+# for word in sentence.split():
+#      print(word)
+
+#13
+# t = "an apple is an type of fruits"
+# print(t.replace(" ","_"))
+
+#14
+text = "Banana"
+print(text.find("a"))
+
+#15
+url = "https//Aidev"
+if url.startswith("https//"):
+    print("Yes, the string starts with https//")
+else:
+    print("No, it did not")
+
+

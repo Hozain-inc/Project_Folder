@@ -1,0 +1,10 @@
+favourite_dish = []
+dish_1 = input("enter your first favourite Nigerian dish:")
+favourite_dish.append(dish_1)
+dish_2 = input("enter your second favourite Nigerian dish:")
+favourite_dish.append(dish_2)
+dish_3 = input("enter your third favourite Nigerian dish:")
+favourite_dish.append(dish_3)
+dishes = tuple(favourite_dish)
+print(dishes)
+print(dish_1, "\n", dish_2,"\n", dish_3,"\n")

@@ -1,0 +1,28 @@
+#6
+text = "I am always active in Python programming class"
+if "python" in text.lower():
+    print("Yes, the string contains 'python'")
+else:
+    print("No, 'python' not found")
+
+
+#7
+t = "Abeokuta"
+rev = " ".join(reversed(t))
+print(rev)
+
+#8
+text = "      Intercontinental"
+print(text.lstrip())
+
+#9
+s = input("Enter a sentence:")
+vowels = "aeiouAEIOU"
+count = sum(1 for ch in s if ch in vowels)
+print("Number of vowels:", count)
+
+#10
+num = "1234"
+integer = int(num)
+result = integer * 2
+print(result)

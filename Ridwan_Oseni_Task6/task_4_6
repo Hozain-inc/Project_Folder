@@ -1,0 +1,18 @@
+voter_name = set()
+voter_name.add(input("enter your voter names:"))
+voter_name.add(input("enter your voter names:"))
+voter_name.add(input("enter your voter names:"))
+voter_name.add(input("enter your voter names:"))
+for name in voter_name:
+    print(name)
+    if name in voter_name:
+        print("warning")
+    else:
+        print(voter_name)
+
+   
+    
+    
+    
+
+

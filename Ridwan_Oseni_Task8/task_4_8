@@ -1,0 +1,15 @@
+# Task4
+student = {}
+name = input("Enter your name:")
+age = int(input("Enter your age:"))
+student.update({name:age})
+print(student)
+list = [70, 85, 90]
+student.update({"scores": list})
+print(student)
+average_score = sum(list)/len(list)
+passed = average_score >= 50
+print("Passed:", passed)
+teenager = (age >= 13) and (age <= 19)
+
+print(f"Student Record:\nName: {name}\nAge: {age}\nScores: {list}\nPassed: {passed}\nTeenager: {teenager}\n")

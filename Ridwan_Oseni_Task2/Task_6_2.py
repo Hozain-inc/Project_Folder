@@ -1,0 +1,5 @@
+name = input("Kindly enter your name: ")
+units = int(input("How much unit is consumed (kWh)? "))
+cost = float(input("What is the cost per unit? "))
+Total_bill = (units*cost)
+print(f"Customer name: {name}\n Units consumed: {units}\nCost per unit: \u20A4{cost}\nTotal bill: \u20A4{Total_bill}")

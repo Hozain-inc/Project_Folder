@@ -1,0 +1,20 @@
+name = input("Enter your name:")
+print(name.upper())
+
+# first and last character
+text = "python"
+print(text[0:6:5])
+
+name = input("What is your name?:")
+print("Hello !", name)
+
+
+# without using len()
+t = "Abeokuta"
+u = sum(1 for i in t)  #Sum 1 for each character i t
+print(u)
+
+# replace()
+text = "Hello World"
+print(text.replace("World" , "Python"))
+

@@ -1,0 +1,6 @@
+available_seat = set(range(1, 51))
+seat_to_book = int(input("book any seat of your choice by entering (or 0 to exit):"))
+print(seat_to_book)
+removed = available_seat.remove(seat_to_book)
+print("removed", removed)
+print("remaining", available_seat)

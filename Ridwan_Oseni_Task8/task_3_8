@@ -1,0 +1,9 @@
+# Task3
+items = ["Book", "Pen", "Bag"]
+prices = ['500, 100, 2000']
+cart_total = 0
+Book = 500
+Pen = 100
+Bag = 2000
+cart_total += Book + Pen + Bag
+print(f"items: {items}\nTotal  Price: {cart_total}")

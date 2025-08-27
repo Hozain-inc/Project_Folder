@@ -1,0 +1,7 @@
+# Task5
+store = {"Book": 10, "Pen": 20, "Bag": 5}
+item = input(f"Enter the item you want to buy\navailable item: {", ".join(store.keys())} :").title()
+quantity = int(input(f"Enter the quantity you want to purchase\navailable quantity: {store[item]} :"))
+print("Before purchase:", store)
+store[item] -= quantity
+print("After purchase:", store)

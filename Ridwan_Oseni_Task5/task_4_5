@@ -1,0 +1,7 @@
+name = input("enter your first name:")
+age = input("enter your age:")
+colour = input("enter your favourite colour:")
+home_town = input("enter your home town:")
+person = (name, age, colour, home_town)
+details = tuple(person)
+print(details) 

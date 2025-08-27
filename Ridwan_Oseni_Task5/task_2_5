@@ -1,0 +1,8 @@
+best_friend_1 = input("enter your first best friend's name:")
+best_friend_2 = input("enter your second best friend's name:")
+best_friend_3 = input("enter your third best friend's name:")
+best_friend_4 = input("enter your fourth best friend's name:")
+best_friend_5 = input("enter your fifth best friend's name:")
+best_friends = (best_friend_1, best_friend_2, best_friend_3, best_friend_4, best_friend_5)
+friends = tuple(best_friends)
+print(friends[::-1])

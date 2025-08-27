@@ -1,0 +1,25 @@
+# Task1
+num1 = int(input("Enter first number:"))
+num2 = int(input("Enter second number:"))
+print(f"{num1} == {num2} : {num1 == num2}") # Output = 8 == 10 (False)
+# as for my input, num1 is not equals to num2 and vice versa
+
+print(f"{num1} != {num2 } : {num1 != num2}") # Output = 8 != 10 (True)
+# as for my input, it is true that num1 is not equals to num2
+
+print(f"{num1} > {num2} : {num1 > num2}") # Output = 8 > 10  (False)
+# as for my input, num1 is not greater than num2
+
+print(f"{num1} < {num2} : {num1 < num2}") # Output = 8 < 10 (True) 
+# as for my input, num1 is less than num2
+
+# CENARIOS
+# Admission cutoff mark (previous year and current year)
+# class population (between male and female)
+# Employment eligibility
+
+age = 25
+apt_test_score = 50
+eligible = (age >= 25) and (apt_test_score >= 60)
+print(eligible)
+

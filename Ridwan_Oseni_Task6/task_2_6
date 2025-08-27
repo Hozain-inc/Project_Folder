@@ -1,0 +1,11 @@
+seminar_attendee = set()
+seminar_attendee.add("mikel")
+seminar_attendee.add("bimbo")
+seminar_attendee.add("malik")
+print("seminar_attendee:", seminar_attendee)
+
+name = "mikel"
+if name in seminar_attendee:
+ print(f"{name} attended the seminar.")
+else:
+ print(f"{name} did not attend the seminar.")

@@ -1,0 +1,23 @@
+# Task2
+
+name = input("Enter your name:")
+age = int(input("Enter your age:"))
+score = int(input("Enter your score:"))
+
+eligibility = (age < 18) and (score > 70)
+print(f"candidate: {name}\nage: {age}\nscore: {score}\neligible: {eligibility}")
+# The code is checking the candidate's eligibility by age and score
+
+name = input("Enter your name:")
+age = 30
+apt_test_score = 50
+eligibility = (age >=25) and (apt_test_score >= 50)
+print(f"candidate's name: {name}\nage: {age}\naptitude_test_score: {apt_test_score}\neligible: {eligibility}")
+
+citizenship = input("Are you a citizen? ")
+enrollment = input("Are you a full-time undergraduate? ")
+scholarship = input("Are you currently receiving any scholarship? ")
+English = int(input("Enter your exam score:"))
+Mathematics = int(input("Enter your exam score:"))
+eligibility = ((citizenship == 'Yes') and (enrollment == 'Yes') and (scholarship == 'No') and (English >= 70) and (Mathematics >= 60))
+print("You are eligible:", eligibility)

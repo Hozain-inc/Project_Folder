@@ -1,0 +1,8 @@
+print("Hello! You are welcome to 9mobile mobile service" )
+USSD = input("Dail *121#: ")
+print(f"Menu:\n1. Check balance\n2. Buy airtime\n3. Buy data")
+option = input("Choose one of the options 1, 2 or 3: ")
+data = float(3014)
+airtime = float(150)
+print(f"Your balance is:\n1. Data: {data: .2f}MB\n2. Airtime:\u20A6{airtime: .2f}")
+print(f"To buy Data or Airtime, repeat the prompt and pick 2 or 3\nTHANK YOU!")

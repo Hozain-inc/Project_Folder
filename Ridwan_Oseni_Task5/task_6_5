@@ -1,0 +1,21 @@
+ # Attendance Tracker
+days = ("monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday")
+months = ("JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEPT", "OCT", "NOV", "DEC")
+name = input("enter your student name:")
+gender = input("enter your student gender:")
+course_track = input("enter your course name:")
+current_month = int(input("enter the current month number:"))
+current_day = int(input("enter the current day number:"))
+current_month = current_month - 1
+current_day = current_day  - 1
+print(f"the current month is {months[current_month]}")
+
+
+
+
+
+
+
+
+
+
