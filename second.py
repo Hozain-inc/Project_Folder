@@ -1,3 +1,5 @@
+# my_module/second.py
+
 def greet(name):
     return f"Hello, {name}! I am creating my own module"
 
@@ -12,3 +14,8 @@ def count_characters(string):
 
 def count_words(string):
     return len(string.split())
+
+def count_sentences(string):
+    return len(string.split("."))
+
+print(name)
