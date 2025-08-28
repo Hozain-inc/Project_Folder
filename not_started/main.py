@@ -1,7 +1,7 @@
 # my_module/main.py
 
-import first
-import second
+import  first
+import  second
 
 # lets use the functions in the first.py file
 
